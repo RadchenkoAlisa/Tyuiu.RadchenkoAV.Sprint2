@@ -10,7 +10,7 @@ namespace Tyuiu.RadchenkoAV.Sprint2.Task1.V21.Lib
             res[1] = (a > b) & (c > d);
             res[2] = (a > b) || (c < d);
             res[3] = (a > b) && (c < d);
-            res[4] = !(!res[0]);
+            res[4] = (!res[0]);
             res[5] = (a > b) ^ (c < d);
             return res;
         }
